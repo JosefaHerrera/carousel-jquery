@@ -1,1 +1,37 @@
-style.css
+
+
+#carousel {
+    background-image: url(../img/fondo.png);
+    height: 100vh;
+}
+
+.flechas {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+}
+
+
+.arrow-left,
+.arrow-rigth {
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+.arrow-rigth {
+    left:40%;
+}
+
+.arrow-left{
+    right: 4%;
+}
+
+
+.fotos {
+    position: fixed;
+    display: inline;
+    top: 83px;
+    background-color: white;
+    border: 20px solid white;
+}
